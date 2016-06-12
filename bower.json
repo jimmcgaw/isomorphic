@@ -1,0 +1,27 @@
+{
+  "name": "isomorphic",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "jimmcgaw <jpmcgaw@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jimmcgaw/isomorphic",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "jquery": "1.9.1 - 2"
+  },
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "bootstrap": "^3.3.6",
+    "underscore": "^1.8.3",
+    "font-awesome": "^4.6.3"
+  }
+}
