@@ -16,6 +16,7 @@ const ContactAppFactory = React.createFactory(ContactApp);
 app.get('/', (request, response) => {
   let componentInstance = ContactAppFactory({ initialData: contacts });
   response.render('index', {
+    reactInitialData: JSON.stringify(contacts),
     content: renderToString(componentInstance)
   });
 });

@@ -5,10 +5,12 @@
     <title>isomorphic react.js</title>
   </head>
   <body>
-    <div class="container">
-      <div id="root">
-        <%- content %>
-      </div>
+    <div id="root">
+      <%- content %>
     </div>
+    <script type="application/json" id="initial-data">
+      <%- reactInitialData %>
+    </script>
+    <script type="text/javascript" src="bundle.js"></script>
   </body>
 </html>
